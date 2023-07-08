@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 /* common shared style */
 body{
     font-family: 'Open Sans', sans-serif;
@@ -38,13 +42,17 @@ nav a{
 font-size: 20px;
 font-weight: 700;
 padding: 15px 35px;
+margin-right: 20px;
 }
 /* header related style */
 .header{
  background-color: #FFF8F3;
- background-image: url('../images/header_bg.png');
+ background-image: url('../images/header_bg.png'),url('../images/developer.png');
  background-repeat: no-repeat;
- background-position: bottom right ;
+ background-position: bottom right,top left;
+ background-size: contain;
+ height: 100vh;
+ padding-top: 30px;
 }
 .banner{
     padding: 30px 30px 0px 150px;
@@ -110,7 +118,7 @@ background: #FFF8F3;
    margin-top: 20px;
 text-align: center;
 color: #757575;
-line-height: 10px;
+line-height: 30px;
 }
 .info-title{
 font-weight: normal;
@@ -141,8 +149,12 @@ box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
 .skills-description{
 color: #757575;
+line-height: 28px;
+margin-top: 20px;
 }
-
+.skills-title{
+    margin-top: 20px;
+}
 /* resume section */
 .resume-container{
 display: flex;
@@ -194,4 +206,28 @@ footer{
     background: #FFF8F3;
     padding: 130px 230px;
     margin-top: 100px;
+    gap: 110px;
+}
+.footer-column{
+    width: 50%;
+}
+.contact input[type="text"],.contact input[type="email"],textarea{
+    display: block;
+    margin-bottom: 25px;
+    color:  #757575;
+    padding: 18px 35px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+   background: #FFF;
+   width: 100%;
+}
+#submit{
+    color: white;
+}
+.social-links a{
+    margin-right: 24px;
+}
+#f-title{
+    margin-bottom: 20px;
 }
