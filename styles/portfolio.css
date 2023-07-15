@@ -240,18 +240,22 @@ textarea {
   #what-i-do-description,
   .banner {
     padding: 20px;
+    background-color: #fff8f3;
   }
   .profile-photo {
     width: 60%;
     height: 50%;
-    margin-bottom: 180px;
+    margin: auto;
+    background-color: #fff8f3;
   }
   .btn-primary {
     margin-bottom: 15px;
   }
   nav > ul {
-    flex-direction: column;
-    gap: 10px;
+    margin-top: 30px;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 25px;
   }
   .skills-container,
   .resume-container,
@@ -267,6 +271,10 @@ textarea {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
+    margin-top: 20px;
+  }
+  .about {
+    margin-top: 80px;
   }
   .footer-column {
     width: 100%;
@@ -275,5 +283,11 @@ textarea {
   .contact input[type="email"],
   textarea {
     width: 80%;
+  }
+  .resume-container {
+    padding: 10px;
+  }
+  .social-links {
+    margin-top: 15px;
   }
 }
