@@ -245,7 +245,6 @@ textarea {
   .profile-photo {
     width: 60%;
     height: 50%;
-    margin: auto;
     background-color: #fff8f3;
   }
   .btn-primary {
@@ -274,7 +273,7 @@ textarea {
     margin-top: 20px;
   }
   .about {
-    margin-top: 150px;
+    margin-top: 250px;
   }
   .footer-column {
     width: 100%;
